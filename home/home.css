@@ -38,7 +38,6 @@ body {
     height: auto;
 }
 
-
 @media screen and (max-width: 1946px) {
     #github {
         transform: scale(120%);
@@ -55,35 +54,37 @@ body {
 
 @media screen and (max-width: 944px) {
     #github {
-        transform: scale(180%);
-        margin-top: 2%;
-        margin-left: 1%;
+        transform: scale(250%);
+        margin-top: 0.5%;
+        margin-left: 2.5%;
     }
 }
 
 @media screen and (max-width: 726px) {
     #github {
-        transform: scale(250%);
-        margin-top: 2.8%;
-        margin-left: 1.5%;
+        transform: scale(350%);
+        margin-top: 0.5%;
+        margin-left: 5%;
     }
 }
 
 @media screen and (max-width: 532px) {
     #github {
-        transform: scale(350%);
-        margin-top: 4%;
-        margin-left: 2.5%;
+        transform: scale(500%);
+        margin-top: -2%;
+        margin-left: 6%;
     }
 }
 
 @media screen and (max-width: 366px) {
     #github {
-        transform: scale(500%);
-        margin-top: 7.5%;
-        margin-left: 5%;
+        transform: scale(750%);
+        margin-top: -1%;
+        margin-left: 10%;
     }
 }
+
+
 
 @keyframes nameAppear {
     0% {
