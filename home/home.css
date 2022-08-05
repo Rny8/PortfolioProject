@@ -45,6 +45,22 @@ body {
     0 0 0.05em currentColor;
 }
 
+#learnMore {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50%;
+    width: 8%;
+    border-radius: 6px;
+    border: var(--clr-neon) .125em solid;
+    box-shadow: 0 0 1em 0.01em var(--clr-neon);
+    background-color: var(--clr-neon);
+    position: relative;
+    font-size: 120%;
+}
+
 
 @media screen and (max-width: 1946px) {
     #github {
