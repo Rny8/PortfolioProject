@@ -279,7 +279,108 @@ body {
         margin-top: -2%;
         margin-left: 6%;
     }
+    #project1 {
+        margin-top: -1%;
+        opacity: 0;
+    }
+    
+    #projectName {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        font-size: 5vw;
+    }
+    
+    #projectdescription {
+        padding-top: 5%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        font-size: 5vw;
+        max-width: 60%;
+    }
+    
+    #projectLink {
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        padding-top: 5%;
+        font-size: 5vw;
+    }
+    
+    #project1image {
+        height: auto;
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5vw;
+    }
+    
 }
+
+@media screen and (max-width: 414px) {
+    #github {
+        transform: scale(750%);
+        margin-top: -1%;
+        margin-left: 10%;
+    }
+
+    #project1 {
+        margin-top: -1%;
+        opacity: 0;
+    }
+    
+    #projectName {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        font-size: 8vw;
+    }
+    
+    #projectdescription {
+        padding-top: 5%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        font-size: 8vw;
+        max-width: 60%;
+    }
+    
+    #projectLink {
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        padding-top: 5%;
+        font-size: 8vw;
+    }
+    
+    #project1image {
+        height: auto;
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5vw;
+    }
+}
+
 
 @media screen and (max-width: 366px) {
     #github {
