@@ -7,6 +7,7 @@
 body {
     background: var(--clr-bg);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -46,6 +47,7 @@ body {
 }
 
 #learnMore {
+    opacity: 0;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -59,6 +61,103 @@ body {
     background-color: var(--clr-neon);
     position: relative;
     font-size: 120%;
+}
+
+#aboutMe {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26%;
+    font-size: 300%;
+    color: var(--clr-neon);
+}
+
+#aboutMeContainer {
+    opacity: 0;
+}
+
+#aboutmeInfo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 15%;
+    color: var(--clr-neon);
+    font-size: 180%;
+    max-width: 35%;
+}
+
+#aboutmeInfo2 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 45%;
+    color: var(--clr-neon);
+    font-size: 180%;
+    max-width: 35%;
+}
+
+
+#projectHeader {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-neon);
+    font-size: 300%;
+}
+
+#project1 {
+    margin-top: -1%;
+    opacity: 0;
+}
+
+#projectName {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-neon);
+    font-size: 2vw;
+}
+
+#projectdescription {
+    margin-left: 55%;
+    margin-top: -15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-neon);
+    font-size: 1.3vw;
+    max-width: 60%;
+}
+
+#projectLink {
+    text-decoration: none;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-neon);
+    font-size: 1.5vw;
+}
+
+#project1image {
+    height: auto;
+    width: 50vw;
+    margin-left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+}
+
+#testing {
+    margin-top: 1000%;
 }
 
 
@@ -147,5 +246,15 @@ body {
 
     66%, 69%, 77% {
         opacity: 0.8;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
