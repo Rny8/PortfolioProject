@@ -38,6 +38,14 @@ body {
     height: auto;
 }
 
+#ryanName {
+    animation: blink 5s infinite;
+    text-shadow: 
+    0 0 0.125em rgba(255, 255, 255, 0.3),
+    0 0 0.05em currentColor;
+}
+
+
 @media screen and (max-width: 1946px) {
     #github {
         transform: scale(120%);
@@ -92,7 +100,7 @@ body {
 
 @media screen and (max-height: 728px) {
     #github {
-        margin-top: -1%;
+        margin-top: -1%; 
     }
 }
 
@@ -106,5 +114,22 @@ body {
     100% {
         transform: translateX(1vw);
         opacity: 100%;
+    }
+}
+
+@keyframes blink {
+    60%, 70%, 79% {
+        opacity: 1;
+    }
+
+    65%, 67%, 76%, 78% {
+        opacity: 0.2;
+        text-shadow: 
+        0 0 0.10em rgba(255, 255, 255, 0.3),
+        0 0 0.02em currentColor;
+    }
+
+    66%, 69%, 77% {
+        opacity: 0.8;
     }
 }
