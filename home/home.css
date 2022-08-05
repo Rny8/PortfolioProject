@@ -85,7 +85,7 @@ body {
     margin-top: 0%;
     margin-left: 15%;
     color: var(--clr-neon);
-    font-size: 180%;
+    font-size: 230%;
     max-width: 35%;
 }
 
@@ -97,7 +97,7 @@ body {
     margin-top: 3%;
     margin-left: 45%;
     color: var(--clr-neon);
-    font-size: 180%;
+    font-size: 230%;
     max-width: 35%;
 }
 
@@ -162,9 +162,91 @@ body {
 
 
 @media screen and (max-width: 1946px) {
-    #github {
-        transform: scale(120%);
-        margin-top: 0.3%;
+
+}
+
+@media screen and (max-width: 1560px) {
+    #learnMore {
+        width: 10%;
+    }
+
+    #projectdescription {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 1249px) {
+    #learnMore {
+        width: 15%;
+    }
+
+    #project1 {
+        margin-top: -1%;
+        opacity: 0;
+    }
+    
+    #projectName {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        font-size: 3vw;
+    }
+    
+    #projectdescription {
+        padding-top: 5%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        font-size: 3vw;
+        max-width: 60%;
+    }
+    
+    #projectLink {
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--clr-neon);
+        padding-top: 5%;
+        font-size: 3vw;
+    }
+    
+    #project1image {
+        height: auto;
+        width: 70vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5vw;
+    }
+    
+}
+
+@media screen and (max-width: 838px) {
+    #learnMore {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    #learnMore {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 509px) {
+    #learnMore {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 426px) {
+    #learnMore {
+        width: 45%;
     }
 }
 

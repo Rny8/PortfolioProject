@@ -9,7 +9,7 @@ window.onload = (event) => {
 
     window.addEventListener('scroll', function() {
         if(window.scrollY > 100) {
-            document.getElementById("aboutMeContainer").style.animation="fadein 1s forwards";
+            document.getElementById("aboutMeContainer").style.animation="fadein 2s forwards";
         }
         console.log(window.scrollY)
     });
