@@ -4,7 +4,7 @@ window.onload = (event) => {
     document.getElementById("learnMore").style.animation="nameAppear 0.5s linear 1 forwards";
 
     document.getElementById("learnMore").onclick = function() {
-        document.getElementById("aboutmeInfo2").scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+        document.getElementById("aboutmeInfo").scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
     }
 
     window.addEventListener('scroll', function() {
@@ -16,8 +16,15 @@ window.onload = (event) => {
 
 
     window.addEventListener('scroll', function() {
-        if(window.scrollY > 1005) {
+        if(window.scrollY > 1150) {
             document.getElementById("project1").style.animation="fadein 2s forwards";
+        }
+        
+    });
+
+    window.addEventListener('scroll', function() {
+        if(window.scrollY > 1953) {
+            document.getElementById("contactMe").style.animation="fadein 2s forwards";
         }
         
     });

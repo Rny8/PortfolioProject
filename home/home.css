@@ -32,12 +32,7 @@ body {
 }
 
 
-#github {
-    position: fixed;
-    top: 95%;
-    width: 2%;
-    height: auto;
-}
+
 
 #ryanName {
     animation: blink 5s infinite;
@@ -156,18 +151,105 @@ body {
     border-radius: 1.5vw;
 }
 
-#testing {
-    margin-top: 1000%;
+.contactMe {
+    opacity: 0;
+}
+
+#contactHeader {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-neon);
+    font-size: 300%;
+}
+
+#github {
+    top: 95%;
+    width: 3.5%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github:hover{
+    animation: rotate 0.5s forwards;
 }
 
 
-@media screen and (max-width: 1946px) {
-
+#footerText {
+    margin-top: 15%;
+    opacity: 0;
 }
 
-@media screen and (max-width: 1560px) {
+
+
+@keyframes rotate {
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+
+
+
+@media screen and (max-width: 1557px) {
     #learnMore {
-        width: 10%;
+        width: 20%;
+    }
+
+    #projectdescription {
+        font-size: 150%;
+    }
+
+    #github {
+        transform: scale(230%);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #projectdescription {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-top: 5%;
+        font-size: 250%;
+        max-width: 60%;
+    }
+
+    #project1image {
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    #projectLink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-top: 5%;
+        font-size: 250%;
+    }
+
+    #projectName {
+        font-size: 250%;
+    }
+
+    #github {
+        transform: scale(250%);
+    }
+}
+
+
+@media screen and (max-width: 632px) {
+    #learnMore {
+        width: 35%;
     }
 
     #projectdescription {
@@ -175,232 +257,6 @@ body {
     }
 }
 
-@media screen and (max-width: 1249px) {
-    #learnMore {
-        width: 15%;
-    }
-
-    #project1 {
-        margin-top: -1%;
-        opacity: 0;
-    }
-    
-    #projectName {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        font-size: 3vw;
-    }
-    
-    #projectdescription {
-        padding-top: 5%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        font-size: 3vw;
-        max-width: 60%;
-    }
-    
-    #projectLink {
-        text-decoration: none;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        padding-top: 5%;
-        font-size: 3vw;
-    }
-    
-    #project1image {
-        height: auto;
-        width: 70vw;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 1.5vw;
-    }
-    
-}
-
-@media screen and (max-width: 838px) {
-    #learnMore {
-        width: 20%;
-    }
-}
-
-@media screen and (max-width: 632px) {
-    #learnMore {
-        width: 25%;
-    }
-}
-@media screen and (max-width: 509px) {
-    #learnMore {
-        width: 30%;
-    }
-}
-@media screen and (max-width: 426px) {
-    #learnMore {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 1273px) {
-    #github {
-        transform: scale(150%);
-        margin-top: 1.5%;
-    }
-}
-
-@media screen and (max-width: 944px) {
-    #github {
-        transform: scale(250%);
-        margin-top: 0.5%;
-        margin-left: 2.5%;
-    }
-}
-
-@media screen and (max-width: 726px) {
-    #github {
-        transform: scale(350%);
-        margin-top: 0.5%;
-        margin-left: 5%;
-    }
-}
-
-@media screen and (max-width: 532px) {
-    #github {
-        transform: scale(500%);
-        margin-top: -2%;
-        margin-left: 6%;
-    }
-    #project1 {
-        margin-top: -1%;
-        opacity: 0;
-    }
-    
-    #projectName {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        font-size: 5vw;
-    }
-    
-    #projectdescription {
-        padding-top: 5%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        font-size: 5vw;
-        max-width: 60%;
-    }
-    
-    #projectLink {
-        text-decoration: none;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        padding-top: 5%;
-        font-size: 5vw;
-    }
-    
-    #project1image {
-        height: auto;
-        width: 90vw;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 1.5vw;
-    }
-    
-}
-
-@media screen and (max-width: 414px) {
-    #github {
-        transform: scale(750%);
-        margin-top: -1%;
-        margin-left: 10%;
-    }
-
-    #project1 {
-        margin-top: -1%;
-        opacity: 0;
-    }
-    
-    #projectName {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        font-size: 8vw;
-    }
-    
-    #projectdescription {
-        padding-top: 5%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        font-size: 8vw;
-        max-width: 60%;
-    }
-    
-    #projectLink {
-        text-decoration: none;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: var(--clr-neon);
-        padding-top: 5%;
-        font-size: 8vw;
-    }
-    
-    #project1image {
-        height: auto;
-        width: 90vw;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 1.5vw;
-    }
-}
-
-
-@media screen and (max-width: 366px) {
-    #github {
-        transform: scale(750%);
-        margin-top: -1%;
-        margin-left: 10%;
-    }
-}
-
-@media screen and (max-height: 1000px) {
-    #github {
-        margin-top: -0.5%;
-    }
-}
-
-@media screen and (max-height: 728px) {
-    #github {
-        margin-top: -1%; 
-    }
-}
 
 
 @keyframes nameAppear {
