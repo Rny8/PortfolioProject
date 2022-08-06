@@ -164,6 +164,10 @@ body {
     font-size: 300%;
 }
 
+#githubContainer {
+    width: 1vw;
+}
+
 #github {
     top: 95%;
     width: 3.5%;
@@ -172,10 +176,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
 }
 
 #github:hover{
-    animation: rotate 0.5s forwards;
+    transform: rotate(45deg);
+    transition: 0.2s;
 }
 
 
@@ -183,16 +189,6 @@ body {
     margin-top: 15%;
     opacity: 0;
 }
-
-
-
-@keyframes rotate {
-    100% {
-        transform: rotate(45deg);
-    }
-}
-
-
 
 
 @media screen and (max-width: 1557px) {
@@ -257,6 +253,12 @@ body {
     }
 }
 
+
+@keyframes rotate {
+    100% {
+        transform: rotate(45deg);
+    }
+}
 
 
 @keyframes nameAppear {
